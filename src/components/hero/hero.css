@@ -3,7 +3,6 @@ section.hero {
 }
 section.hero .perant-avatar.flex {
   align-items: end;
-  gap: 0.6rem;
   min-height: 150px;
 }
 
