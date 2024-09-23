@@ -96,6 +96,9 @@ header .icon-close:hover {
   header button.menu.mode {
     display: block;
   }
+header.flex {
+padding: 0;
+}
 }
 @keyframes modelscale {
   0% {

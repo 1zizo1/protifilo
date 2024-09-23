@@ -76,6 +76,7 @@ section.contact-us button:hover {
 }
 section.contact-us .contact-container{
   justify-content: space-between;
+  display: flex;
 
 }
 
@@ -101,6 +102,9 @@ section.contact-us .contact-container{
 section.contact-us button {
 width: 30%;
 align-self: center;
+}
+section.contact-us .contact-container{
+justify-content: center;
 }
 }
 @media (max-width:1100px) {
