@@ -82,7 +82,7 @@ export const projects = [
     {
       title: "Training React",
       desc: "A training project for learning React, demonstrating various React features and best practices.",
-      imagePath: "./trainig 1.1.png",
+      imagePath: "./trainig 1.3.png",
       liveDemoLink: "https://1zizo1.github.io/trainigReact",
       githubLink: "https://github.com/1zizo1/trainigReact",
       category: ["react","js", "css"],
