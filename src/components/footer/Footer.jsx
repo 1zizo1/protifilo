@@ -20,7 +20,7 @@ export default function Footer() {
             <a href="">Contact</a>
           </li>
         </ul>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Thank you for your time</p>
     </footer>
   )
 }

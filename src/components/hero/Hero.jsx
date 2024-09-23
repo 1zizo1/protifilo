@@ -21,12 +21,11 @@ export default function Hero() {
         initial={{opacity:0}}
         animate={{opacity: 1}}
         transition={{duration:2}}
-        className="title">My name is the killer</motion.h1>
+        className="title">Ahmed Abd EllAziz</motion.h1>
         <p className="sub-title">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-          nobis veritatis nihil, amet unde odit, quo ad id repudiandae a labore,
-          modi quidem. Itaque necessitatibus aperiam, esse reiciendis nisi
-          accusamus?
+        Seeking a Front-End Developer role to leverage my framework expertise and 
+development skills, aiming to advance to Full-Stack Developer and gain experience in 
+mobile and desktop app development while contributing to innovative projects. 
         </p>
         <div className="icons flex">
           <div className="icon icon-facebook-f"></div>
