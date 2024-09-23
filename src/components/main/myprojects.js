@@ -34,7 +34,7 @@ export const projects = [
     {
       title: "Devilo",
       desc: "A portfolio website template showcasing various projects, complete with live demos and GitHub repository links.",
-      imagePath: "./devilio.png",
+      imagePath: "./devilio.jpg",
       liveDemoLink: "https://1zizo1.github.io/Devilo/",
       githubLink: "https://github.com/1zizo1/Devilo.git",
       category: ["js", "css"],
