@@ -33,13 +33,13 @@ export default function Header() {
             <a href="">About</a>
           </li>
           <li>
-            <a href="">Articles</a>
+            <a href="">skills</a>
           </li>
           <li>
             <a href="">Projects</a>
           </li>
           <li>
-            <a href="">Speaking</a>
+            <a href="">experince</a>
           </li>
           <li>
             <a href="">Contact</a>
