@@ -1,0 +1,59 @@
+section.hero {
+  margin-top: 3rem;
+}
+section.hero .perant-avatar.flex {
+  align-items: end;
+  gap: 0.6rem;
+  min-height: 150px;
+}
+
+section.hero .left-section {
+  flex-grow: 1;
+}
+section.hero .avatar {
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid darkorange;
+  padding: 1px;
+  box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.586) inset;
+  margin-right: 16px;
+}
+section.hero .icon-verified {
+  color: var(--blue);
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+section.hero h1.title {
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 24px 0;
+  color: var(--title);
+}
+section.hero p.sub-title {
+  color: var(--sub-title);
+  line-height: 1.2rem;
+  margin-bottom: 22px;
+}
+
+section.hero .icons {
+  color: var(--sub-title);
+  gap: 1.5rem;
+  font-size: 1.3rem;
+}
+section.hero .icons .icon:hover {
+  /* padding: .5rem; */
+  transition: .3s;
+cursor: pointer;
+color: var(--icon-hover);
+  font-size: 1.4rem;
+}
+
+section.hero .right-section.animation{
+  width: 100%;
+  translate: 100px 55px ;
+}
+@media (max-width: 1200px) {
+  section.hero .animation{
+    display: none; 
+}
+}

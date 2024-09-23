@@ -1,0 +1,110 @@
+header ul.flex {
+  gap: 16px;
+}
+header ul li a {
+  color: var(--title);
+  opacity: 0.9;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+header ul li a:hover {
+  opacity: 1;
+  font-size: 0.9rem;
+  color: var(--blue);
+}
+header button {
+  font-size: 1.2rem;
+}
+header.flex {
+  justify-content: space-between;
+  padding: 0 2.4rem;
+  margin-top: 1.2rem;
+}
+header.flex nav {
+  background-color: var(--bgHeader);
+  padding: 0.77rem 1.6rem;
+  border-radius: 55px;
+  box-shadow: 1px 1px 10px #2323242a;
+}
+header button.menu.mode {
+  display: none;
+}
+/*  */
+header .fixed {
+  position: fixed;
+  inset: 0;
+  z-index: 11;
+  backdrop-filter: blur(4px);
+}
+header .fixed ul.model {
+  width: 85%;
+  margin: 2rem auto 0 auto;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background-color: var(--secondery);
+  animation: modelscale 0.77s 1;
+}
+header .fixed ul.model li {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.77rem;
+  padding-top: 0.5rem;
+}
+header .fixed ul.model li a {
+  font-size: 1rem;
+}
+header .fixed ul.model li:first-child {
+  text-align: right;
+  border: none;
+  padding: 0;
+}
+header .fixed ul.model li:last-child {
+  border: none;
+}
+/*  */
+header button.mode {
+  background-color: var(--bgHeader);
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 50%;
+  color: var(--sub-title);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid rgb(244, 165, 96, 0.249);
+  transition: 0.2s;
+}
+header button.mode:hover {
+  color: var(--title);
+  border: 1px solid rgb(244, 165, 96);
+}
+header .icon-close {
+  font-size: 1rem;
+  color: var(--sub-title);
+  transition: 0.3s;
+}
+header .icon-close:hover {
+  font-size: 1.2rem;
+  color: crimson;
+  rotate: 180deg;
+}
+
+@media (max-width: 700px) {
+  header.flex nav {
+    display: none;
+  }
+  header button.menu.mode {
+    display: block;
+  }
+}
+@keyframes modelscale {
+  0% {
+    scale: 0;
+  }
+  60% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 1;
+  }
+}
